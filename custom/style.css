@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.big-wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.alert-wrapper {
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(12, 1, 49);
+}
+
+.header-inner-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+.navigation-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #ccc;
+}
+
+.highlight-wrapper {
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(12, 1, 49);
+}
+
+.content {
+    background: #ccc;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 960px;
+}
