@@ -28,10 +28,9 @@ body {
 }
 
 .highlight-wrapper {
-    color: white;
+    background-color: #C9C9C9;
     margin: 0 auto;
     width: 100%;
-    background: rgb(12, 1, 49);
 }
 
 .content {
