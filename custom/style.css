@@ -120,3 +120,15 @@ hr{
     margin:0;
     padding: 0;
 }
+
+/* PROGRAMS & INITIATIVE */
+.prog-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media all and (min-width: 770px) {
+    .prog-height {
+        height: 12rem;
+    }
+}
