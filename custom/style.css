@@ -55,6 +55,7 @@ body {
     padding-top: 3vh;
     padding-bottom: 3vh;
     width: 960px;
+    overflow: hidden;
 }
 
 .event-wrapper {
@@ -153,6 +154,7 @@ hr {
     min-height: 20px;
     box-sizing: border-box;
     float: left;
+    overflow: hidden;
     margin-top: 35px;
     margin-bottom: 40px;
 }
@@ -187,6 +189,13 @@ hr {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 11pt;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #000;
+    color: #fff;
 }
 
 
