@@ -27,11 +27,22 @@ body {
     background: #ccc;
 }
 
-.highlight-wrapper {
-    color: white;
+.slider-wrapper {
+    background-color: rgb(104, 70, 167);
     margin: 0 auto;
     width: 100%;
-    background: rgb(12, 1, 49);
+}
+
+.highlight-wrapper {
+    background-color: #C9C9C9;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.program-wrapper {
+    background-color: #C9C9C9;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .content {
@@ -47,7 +58,7 @@ body {
 }
 
 .event-wrapper {
-    /*background-color: red;*/
+    background-color: #fff;
     margin: 0 auto;
     width: 100%;
 }
@@ -176,4 +187,18 @@ hr {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 11pt;
+}
+
+
+/* PROGRAMS & INITIATIVE */
+
+.prog-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media all and (min-width: 770px) {
+    .prog-height {
+        height: 12rem;
+    }
 }
