@@ -27,7 +27,19 @@ body {
     background: #ccc;
 }
 
+.slider-wrapper {
+    background-color: rgb(104, 70, 167);
+    margin: 0 auto;
+    width: 100%;
+}
+
 .highlight-wrapper {
+    background-color: #C9C9C9;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.program-wrapper {
     background-color: #C9C9C9;
     margin: 0 auto;
     width: 100%;
@@ -45,50 +57,50 @@ body {
     width: 960px;
 }
 
-.event-wrapper{
-    /*background-color: red;*/
+.event-wrapper {
+    background-color: #fff;
     margin: 0 auto;
     width: 100%;
 }
 
-.span-left{
+.span-left {
     width: 20%;
     margin: 0;
     padding: 0;
 }
 
-.span-mid{
+.span-mid {
     width: 30%;
     margin: 0;
 }
 
-.span-right{
+.span-right {
     width: 40%;
     margin: 0;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
     margin: 0;
 }
 
-h2{
+h2 {
     margin: 0 auto;
 }
 
-.inputflag{
+.inputflag {
     clear: both;
     margin: 3vh 0 1vh 0;
 }
 
-.tribtn{
+.tribtn {
     width: 100%;
     height: 10vh;
     border-radius: 0px;
 }
 
-select{
+select {
     width: 100%;
     padding: 5px 2px 5px 5px;
     border-color: #C9C9C9;
@@ -98,7 +110,7 @@ select{
     font-size: 1rem;
 }
 
-.event-mid{
+.event-mid {
     overflow-y: auto;
     overflow-x: hidden;
     height: 380px;
@@ -106,22 +118,24 @@ select{
     padding: 0;
 }
 
-hr{
+hr {
     clear: both;
     width: 100%;
 }
 
-.event-item{
+.event-item {
     margin-left: 2vw;
 }
 
-.event-list{
+.event-list {
     width: 100%;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
+
 /* PROGRAMS & INITIATIVE */
+
 .prog-title {
     font-size: 1.1em;
     font-weight: bold;
