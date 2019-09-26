@@ -40,7 +40,7 @@ body {
 }
 
 .program-wrapper {
-    background-color: #C9C9C9;
+    background-color: rgb(228, 228, 228);
     margin: 0 auto;
     width: 100%;
 }
