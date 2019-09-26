@@ -25,6 +25,7 @@ body {
     margin: 0 auto;
     width: 100%;
     background: #ccc;
+    border: 1px solid black;
 }
 
 .slider-wrapper {
@@ -198,6 +199,68 @@ hr {
     color: #fff;
 }
 
+#navigation {
+    display: grid;
+    grid-template-columns: 15% auto auto auto auto auto auto auto auto 15%;
+}
+
+.navigation-item {
+    text-align: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+}
+
+.navigation-item-1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation-item-last {
+    text-align: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+}
+
+.navigation-item {
+    text-align: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+    color: black;
+}
+
+.navigation-item:hover {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 15% 20% 30% 20% 15%;
+    margin: 0 auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    overflow: hidden;
+}
+
+#nyc-big {
+    font-size: xx-large;
+    margin: auto;
+    color: purple;
+}
+
+#header-caption {
+    margin: auto 0;
+}
+
+#language-and-font-size {
+    margin: auto 0;
+}
+
+#language-and-font-size-img {
+    float: right;
+    width: 120px;
+    height: 30px;
+}
 
 /* PROGRAMS & INITIATIVE */
 
