@@ -1,0 +1,305 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.big-wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.alert-wrapper {
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(12, 1, 49);
+}
+
+.header-inner-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+.navigation-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #ccc;
+}
+
+.slider-wrapper {
+    background-color: rgb(104, 70, 167);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.highlight-wrapper {
+    background-color: #C9C9C9;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.program-wrapper {
+    background-color: rgb(228, 228, 228);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content {
+    background: #ccc;
+}
+
+.inner {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 960px;
+    overflow: hidden;
+}
+
+.event-wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.elected-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #ffffff;
+    color: black;
+}
+
+.span-left {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.span-mid {
+    width: 30%;
+    margin: 0;
+}
+
+.span-right {
+    width: 40%;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.inputflag {
+    clear: both;
+    margin: 3vh 0 1vh 0;
+}
+
+.tribtn {
+    width: 100%;
+    height: 10vh;
+    border-radius: 0px;
+}
+
+select {
+    width: 100%;
+    padding: 5px 2px 5px 5px;
+    border-color: #C9C9C9;
+    border-radius: 5px;
+    color: #0a5796;
+    font-style: bold;
+    font-size: 1rem;
+}
+
+.event-mid {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 380px;
+    border-left: 1px solid #ccc;
+    padding: 0;
+}
+
+hr {
+    clear: both;
+    width: 100%;
+}
+
+.event-item {
+    margin-left: 2vw;
+}
+
+.event-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.gw-title {
+    width: 100%;
+    text-align: center;
+    font-size: 27pt;
+    font-weight: bold;
+}
+
+.gw-first-row,
+.gw-second-row {
+    width: 100%;
+    min-height: 20px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.gw-first-row-official {
+    width: 25%;
+    box-sizing: border-box;
+    min-height: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gw-first-row-official>img,
+.gw-second-row-official>img {
+    width: 74px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.gw-second-row-official {
+    width: 20%;
+    box-sizing: border-box;
+    min-height: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gw-official-position {
+    color: #236ba7;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+
+
+/* PROGRAMS & INITIATIVE */
+
+.prog-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media all and (min-width: 770px) {
+    .prog-height {
+        height: 12rem;
+    }
+}
+
+/* slider */
+
+.bg-slider{
+    background-image: url("img/mayor.jpg");
+    min-height: 400px;
+    background-size: cover;
+}
+
+.slider-text{
+    margin-top: 250px;
+    padding-left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.headline-slider{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.link-slider{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    width: 250px;
+    height: 32px;
+    line-height: 30px;
+    padding-left: 38px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: url("img/bg-arrow.png");
+    color: white;
+}
+
+.under-link{
+    position: absolute;
+    top: 50px;
+    color: white;
+}
+
+.desc-slider{
+    font-size: 12pt;
+}
+
+.col-custom1{
+    width: 104px;
+    border-radius: 20px;
+}
+
+.col-custom2{
+    width: 820px;
+    margin-left: 30px;
+}
+
+.row-custom{
+    width: 100%;
+}
+
+.tab-text{
+    font-size: 12px;
+}
+
+.tab-desc{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.arrow-left{
+    position: absolute;
+    top: 450px;
+    left: 160px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.arrow-right{
+    position: absolute;
+    top: 450px;
+    right: 155px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
