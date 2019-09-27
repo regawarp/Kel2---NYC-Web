@@ -54,8 +54,25 @@ body {
     margin: 0 auto;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    width: 960px;
     overflow: hidden;
+}
+
+@media all and (max-width: 630px) {
+    .inner {
+        width: 92%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .inner {
+        width: 95%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .inner {
+        width: 960px;
+    }
 }
 
 .event-wrapper {
@@ -201,13 +218,31 @@ hr {
 
 /* PROGRAMS & INITIATIVE */
 
+.row-pad {
+    padding: 10px;
+}
+
+.prog-pad {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.prog-border {
+    border: 0.1px lightgray solid;
+}
+
 .prog-title {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
 }
 
 @media all and (min-width: 770px) {
     .prog-height {
-        height: 12rem;
+        height: 11rem;
     }
+}
+
+.prog-desc {
+    font-size: 0.9em;
+    line-height: 20px;
 }
