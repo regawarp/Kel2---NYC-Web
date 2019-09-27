@@ -235,7 +235,7 @@ hr {
 
 #header {
     display: grid;
-    grid-template-columns: 15% 20% 30% 20% 15%;
+    grid-template-columns: 15% 23% 27% 20% 15%;
     margin: 0 auto;
     padding-top: 3vh;
     padding-bottom: 3vh;
