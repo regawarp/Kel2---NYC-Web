@@ -236,13 +236,28 @@ hr {
     font-weight: bold;
 }
 
-@media all and (min-width: 770px) {
+@media all and (min-width: 578px) {
+    .prog-height {
+        height: 7rem;
+        overflow: hidden;
+    }
+}
+
+@media all and (min-width: 768px) {
     .prog-height {
         height: 11rem;
+        overflow: hidden;
     }
 }
 
 .prog-desc {
     font-size: 0.9em;
     line-height: 20px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
