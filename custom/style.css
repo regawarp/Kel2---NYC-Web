@@ -242,17 +242,14 @@ hr {
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
-    .prog-pad {
-        height: 100px;
-        overflow: hidden;
-    }
-    
     .img-col-sm {
-        min-width: 100px;
+        height: 100px;
+        width: 100px;
     }
 
     .text-col-sm {
-        max-width: 80%;
+        height: 100px;
+        overflow: hidden;
     }
 }
 
@@ -266,11 +263,4 @@ hr {
 .prog-desc {
     font-size: 0.9em;
     line-height: 20px;
-}
-
-.row-eq-height {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
 }
