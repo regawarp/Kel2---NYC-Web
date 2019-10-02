@@ -241,9 +241,18 @@ hr {
     font-weight: bold;
 }
 
-@media all and (min-width: 578px) {
-    .prog-height {
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .prog-pad {
+        height: 100px;
         overflow: hidden;
+    }
+    
+    .img-col-sm {
+        min-width: 100px;
+    }
+
+    .text-col-sm {
+        max-width: 80%;
     }
 }
 
