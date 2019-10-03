@@ -17,8 +17,7 @@
         <header>
             <div class="alert-wrapper">
                 <div class="inner" style="text-align: center;">
-                    <b>Visiting Bandung?</b> Find events, attractions, deals, and more at <b><a
-                            href="#">bandungjuara.go.id</a></b>
+                    <b>Visiting Bandung?</b> Find events, attractions, deals, and more at <b><a href="#">bandungjuara.go.id</a></b>
                 </div>
             </div>
             <div class="header-inner-wrapper">
@@ -27,10 +26,10 @@
                     <div> </div>
                     <div id="header-caption"> The Official Website of the City of New York </div>
                     <div id="nyc-big">
-                        <a href="#"> <img src="<?php echo get_template_directory_uri();?>/img/nyc.png"> </img>
+                        <a href="#"> <img src="<?php echo get_template_directory_uri(); ?>/img/nyc.png"> </img>
                         </a>
                     </div>
-                    <div id="language-and-font-size"> <img id="language-and-font-size-img" src="<?php echo get_template_directory_uri();?>/img/font-and-translate.png"> </img>
+                    <div id="language-and-font-size"> <img id="language-and-font-size-img" src="<?php echo get_template_directory_uri(); ?>/img/font-and-translate.png"> </img>
                     </div>
                     <div> </div>
                 </div>
