@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="script.js"></script>
@@ -70,6 +70,7 @@
             </div>
         </header>
 
+        <main>
         <div class="slider-wrapper">
             <div class="inner">
                 SLIDER
@@ -640,6 +641,7 @@
                 </div>
             </div>
         </div>
+    </main>
         <footer class="footer-wrapper">
             <div class="inner">
                 <!-- Annazar -->
