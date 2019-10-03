@@ -82,127 +82,127 @@
                         <div class="upper-list-311">
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-121">
-                                    <img alt="" src="./img/benefits3.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/benefits3.svg">
                                     <span>Benefits &amp; Support</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-2">
-                                    <img alt="" src="./img/businessandconsumers6.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/businessandconsumers6.svg">
                                     <span>Business &amp; Consumers</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-3">
-                                    <img alt="" src="./img/courtsandlaw3.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/courtsandlaw3.svg">
                                     <span>Courts &amp; Law</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-4">
-                                    <img alt="" src="./img/cultureandrecreation.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/cultureandrecreation.svg">
                                     <span>Culture &amp; Recreation</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-5">
-                                    <img alt="" src="./img/education3.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/education3.svg">
                                     <span>Education</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-6">
-                                    <img alt="" src="./img/employment.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/employment.svg">
                                     <span>Employment</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-7">
-                                    <img alt="" src="./img/environment8.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/environment8.svg">
                                     <span>Environment</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-8">
-                                    <img alt="" src="./img/garbageandrecycling3.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/garbageandrecycling3.svg">
                                     <span>Garbage &amp; Recycling</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-9">
-                                    <img alt="" src="./img/governmentandelections2.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/governmentandelections2.svg">
                                     <span>Government &amp; Elections</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-10">
-                                    <img alt="" src="./img/health2.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/health2.svg">
                                     <span>Health</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-11">
-                                    <img alt="" src="./img/housingandbuildings.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/housingandbuildings.svg">
                                     <span>Housing &amp; Buildings</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-12">
-                                    <img alt="" src="./img/noise2.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/noise2.svg">
                                     <span>Noise</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-13">
-                                    <img alt="" src="./img/pets4.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/pets4.svg">
                                     <span>Pets, Pests &amp; Wildlife</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-14">
-                                    <img alt="" src="./img/publicsafety1.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/publicsafety1.svg">
                                     <span>Public Safety</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-15">
-                                    <img alt="" src="./img/records1.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/records1.svg">
                                     <span>Records</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-16">
-                                    <img alt="" src="./img/sidewalksstreetshighways.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/sidewalksstreetshighways.svg">
                                     <span>Sidewalks, Streets, Highways</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-17">
-                                    <img alt="" src="./img/tax2.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/tax2.svg">
                                     <span>Taxes</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-18">
-                                    <img alt="" src="./img/transportation4.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/transportation4.svg">
                                     <span>Transportation</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/all-articles/">
-                                    <img alt="" src="./img/a-z2.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/a-z2.svg">
                                     <span>A to Z</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/about-nyc-311/">
-                                    <img alt="" src="./img/311app8.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/311app8.svg">
                                     <span>About 311</span>
                                 </a>
                             </li>
                             <li>
                                 <a class="three11-white-link" href="https://portal.311.nyc.gov/article/?kanumber=KA-01025">
-                                    <img alt="" src="./img/311-mobile-app.svg">
+                                    <img alt="" src="<?php echo get_template_directory_uri();?>/img/311-mobile-app.svg">
                                     <span>Get The NYC311 App</span>
                                 </a>
                             </li>
