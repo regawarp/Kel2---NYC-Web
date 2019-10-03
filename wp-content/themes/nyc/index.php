@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="script.js"></script>
@@ -70,6 +70,7 @@
             </div>
         </header>
 
+        <main>
         <div class="slider-wrapper">
             <div class="inner">
                 SLIDER
@@ -283,100 +284,101 @@
             <div class="inner">
                 <div class="row">
                     <div class="col-10">
-                        <h2><b>NYC Programs & Initiatives</b></h2>
+                        <h2>NYC Programs & Initiatives</h2>
                     </div>
                     <div class="col-2">
                         <button type="button" class="btn btn-dark btn-sm ml-auto d-none d-sm-block"><b>VIEW
                                 ALL</b></button>
                     </div>
                 </div>
-                <div class="row mt-3 row-pad">
+                <div class="row mt-3">
                     <div class="col-sm-6 col-md-3 mb-2">
-                        <div class="row prog-pad">
-                            <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
-                                <img src="../img/program 1-1.jpg" class="img-fluid img-sm" alt="Image">
+                        <div class="row border rounded m-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
+                                <img src="../img/program 1-1.jpg" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">Opportunity Starts Now</h5>
-                                <p class="d-none d-sm-block prog-desc">Free, full-day, high-quality pre-K, where teachers are igniting learning in our children.</p>
+                                <p class="d-none d-sm-block">Free, full-day, high-quality pre-K, where teachers are igniting learning in our children.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 mb-2">
-                        <div class="row prog-pad">
-                            <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
                                 <img src="../img/program 1-2.jpg" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">Gridlock Alert Days</h5>
-                                <p class="d-none d-sm-block prog-desc">Avoid gridlock. Check out UN Assembly related street closures, weekdays from September 23-30.</p>
+                                <p class="d-none d-sm-block">Avoid gridlock. Check out UN Assembly related street closures, weekdays from September 23-30.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 mb-2">
-                        <div class="row prog-pad">
-                            <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
-                                <img src="../img/program 1-3.jpg" class="img-fluid img-sm" alt="Image">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
+                                <img src="../img/program 1-3.jpg" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">NYC Off-Broadway Week: 2-for-1 Tickets</h5>
-                                <p class="d-none d-sm-block prog-desc">Take a night off—on the edge of your seat. During NYC Off-Broadway Week, tickets are 2-for-1.</p>
+                                <p class="d-none d-sm-block">Take a night off—on the edge of your seat. During NYC Off-Broadway Week, tickets are 2-for-1.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 mb-2">
-                        <div class="row prog-pad">
-                            <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
-                                <img src="../img/program 1-4.jpg" class="img-fluid img-sm" alt="Image">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
+                                <img src="../img/program 1-4.jpg" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">Register to Vote for General Election 11/5</h5>
-                                <p class="d-none d-sm-block prog-desc">10/11 is the last day to postmark & register in person for General Election on 11/5.</p>
+                                <p class="d-none d-sm-block">10/11 is the last day to postmark & register in person for General Election on 11/5.</p>
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-dark btn-lg btn-block mx-3 mb-4 d-block d-sm-none mx-0">VIEW ALL</button>
+                    <button type="button" class="btn btn-dark btn-lg btn-block mx-3 mb-4 d-block d-sm-none">VIEW
+                        ALL</button>
                 </div>
-                <div class="row mt-3 row-pad">
-                    <div class="col-md-3 mb-2 d-none d-xl-block">
-                        <div class="row prog-pad">
-                            <div class="col-md-12 p-0 prog-border">
+                <div class="row mt-5">
+                    <div class="col-sm-6 col-md-3 mb-2 d-none d-lg-block">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
                                 <img src="../img/program 2-1.png" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-md-12 bg-white prog-border">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">NYC Open Data</h5>
-                                <p class="d-none d-sm-block prog-desc">Access more than 1,400 NYC data sets for free, at any time via the NYC Open Data portal.</p>
+                                <p class="d-none d-sm-block">Access more than 1,400 NYC data sets for free, at any time via the NYC Open Data portal.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-2 d-none d-xl-block">
-                        <div class="row prog-pad">
-                            <div class="col-md-12 p-0 prog-border">
-                                <img src="../img/program 2-2.gif" class="img-fluid img-sm" alt="Image">
+                    <div class="col-sm-6 col-md-3 mb-2 d-none d-lg-block">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
+                                <img src="../img/program 2-2.gif" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-md-12 bg-white prog-border">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">NYC Teen</h5>
-                                <p class="d-none d-sm-block prog-desc">Learn how to deal with pressures facing teens and where to get help.</p>
+                                <p class="d-none d-sm-block">Learn how to deal with pressures facing teens and where to get help.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-2 d-none d-xl-block">
-                        <div class="row prog-pad">
-                            <div class="col-md-12 p-0 prog-border">
+                    <div class="col-sm-6 col-md-3 mb-2 d-none d-lg-block">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
                                 <img src="../img/program 2-3.jpg" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-md-12 bg-white prog-border">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">PlanNowNYC</h5>
-                                <p class="d-none d-sm-block prog-desc">Get tips to stay safe during an emergency, learn about possible emergency events, and make a plan.</p>
+                                <p class="d-none d-sm-block">Get tips to stay safe during an emergency, learn about possible emergency events, and make a plan.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-2 d-none d-xl-block">
-                        <div class="row prog-pad">
-                            <div class="col-md-12 p-0 prog-border">
+                    <div class="col-sm-6 col-md-3 mb-2 d-none d-lg-block">
+                        <div class="row border rounded mx-0">
+                            <div class="col-3 col-sm-5 col-md-12 p-0">
                                 <img src="../img/program 2-4.jpg" class="img-fluid" alt="Image">
                             </div>
-                            <div class="prog-height col-md-12 bg-white prog-border">
+                            <div class="prog-height col-9 col-sm-7 col-md-12 bg-light">
                                 <h5 class="prog-title mt-2">ACCESS NYC Portal</h5>
                                 <p class="d-none d-sm-block">Visit the online public benefits screening and application tool.
                                 </p>
@@ -385,8 +387,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="event-wrapper">
+            <div class="event-wrapper">
                 <br>
                 <div class="inner">
                     <div class="row">
@@ -601,6 +602,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         <div class="elected-wrapper">
             <div class="inner">
                 <hr>
@@ -639,6 +641,7 @@
                 </div>
             </div>
         </div>
+    </main>
         <footer class="footer-wrapper">
             <div class="inner">
                 <!-- Annazar -->
