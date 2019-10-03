@@ -59,6 +59,12 @@ body {
     width: 100%;
 }
 
+@media all and (min-width: 768px) {
+    .program-wrapper {
+        background-color: rgb(228, 228, 228);
+    }
+}
+
 .content {
     background: #ccc;
 }
@@ -70,6 +76,24 @@ body {
     padding-bottom: 3vh;
     width: 960px;
     overflow: hidden;
+}
+
+@media all and (max-width: 630px) {
+    .inner {
+        width: 92%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .inner {
+        width: 95%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .inner {
+        width: 960px;
+    }
 }
 
 .event-wrapper {
@@ -278,15 +302,45 @@ hr {
 
 /* PROGRAMS & INITIATIVE */
 
+.row-pad {
+    padding: 10px;
+}
+
+.prog-pad {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.prog-border {
+    border: 0.1px lightgray solid;
+}
+
 .prog-title {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
 }
 
-@media all and (min-width: 770px) {
-    .prog-height {
-        height: 12rem;
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .img-col-sm {
+        height: 100px;
+        width: 100px;
     }
+    .text-col-sm {
+        height: 100px;
+        overflow: hidden;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .prog-height {
+        height: 11rem;
+        overflow: hidden;
+    }
+}
+
+.prog-desc {
+    font-size: 0.9em;
+    line-height: 20px;
 }
 
 .upper-table td {
