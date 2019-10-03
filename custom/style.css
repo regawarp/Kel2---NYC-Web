@@ -35,7 +35,7 @@ body {
 }
 
 .highlight-wrapper {
-    background-color: white;
+    background-color: rgb(228, 228, 228);
     margin: 0 auto;
     width: 100%;
 }
@@ -275,47 +275,11 @@ hr {
     }
 }
 
-
-.upper-table td {
-  color: black;  
-  border-width: 2px;  
-}
-
-.upper-table td a{
-  text-decoration: none;
-}
-
-.upper-table td:hover {
-  background: yellow;
-  border-color: black;
-  border-width: 2px;  
-}
-
-.lower-table td {
-  background: black;
-  color: black;  
-  border-width: 2px;  
-}
-
-.lower-table td:hover {
-  background: yellow;
-  border-color: black;
-  border-width: 2px;  
-}
-
-.lower-table td > a{
-  color: white;  
-  font-weight: bold;
-}
-.lower-table td > a:hover{
-  color: black;
-  text-decoration: none;
-}
-
 .three11-logo {
   display: flex;
   justify-content: center;
   background: yellow;
+  width: 100%;
 }
 
 .three11-logo > a {
@@ -342,12 +306,11 @@ hr {
 }
 
 .cityscoop-text-space h4 {
-  font-size: 20px;
+  font-size: 15pt;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid lightgray;
-  width: 100%; 
 }
 
 .cityscoop-container img {
@@ -381,3 +344,100 @@ hr {
   font-weight: bold;
 }
 
+.upper-list-311 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.upper-list-311 li {
+    flex-basis: calc(100% / 3);
+    border: 1px solid lightgray;
+    list-style-type: none;
+    padding: 10px;
+}
+.upper-list-311 li:hover {
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.lower-list-311 {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+}
+
+.lower-list-311 li {
+    flex-basis: calc(100% / 3);
+    border: 1px solid black;
+    list-style-type: none;
+    background-color: black;
+    padding: 10px;
+}
+
+.lower-list-311 li a {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    /* Saat lebar screen lebih dari 768px, "City Scoop" akan pindah ke kanan layar */
+    .row-311 {
+        display: flex;
+    }
+    .left-311 {
+        flex-basis: 75%;
+    }
+    .right-311 {
+        flex-basis: 25%;
+        margin-left: 20px;
+    }    
+}
+
+@media (max-width: 768px) {
+    /* Saat lebar screen kurang dari 768px, yang sebelumnya terdapat 3 kolom list, menjadi hanya 2*/
+    .upper-list-311 li{
+        flex-basis:  calc(100% / 2) !important;
+    }
+    /* Saat lebar screen kurang dari 768px, yang sebelumnya terdapat 3 kolom list, menjadi hanya 1*/
+    .lower-list-311 li{
+        flex-basis:  calc(100% / 1) !important;
+        margin-top: 5px;
+    }
+    .cityscoop-heading {
+        margin-top: 10px;
+    }
+    .cityscoop-container img {
+        width: 75%;
+        padding-left: 25%;
+    }
+    .cityscoop-text-space {
+        margin-top: 10px;
+    }
+    .cityscoop-text-space h4{
+        margin-top: 10px;
+    }
+    .cityscoop-text-space p{
+        margin-bottom: 50px;
+    }    
+}
+
+@media (max-width: 480px) {
+    /* Saat lebar screen kurang dari 480px, yang sebelumnya terdapat 2 kolom list, menjadi hanya 1*/
+    .upper-list-311 li{
+        flex-basis:  calc(100% / 1) !important;
+    }
+    /* Saat lebar screen kurang dari 768px, yang sebelumnya terdapat 1 kolom list, menjadi hanya 1*/
+    .lower-list-311 li{
+        flex-basis:  calc(100% / 1) !important;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .cityscoop-heading {
+        margin-top: 10px;
+    }
+    .cityscoop-container img {
+        width: 75%;
+        padding-left: 25%;
+    }      
+}
