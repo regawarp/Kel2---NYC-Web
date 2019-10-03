@@ -71,206 +71,176 @@
 </div>
 <div class="highlight-wrapper">
     <div class="inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <div class="table-responsive-md">
-                        <div class="three11-logo">
-                            <h2 id="three11-module-heading" class="sr-only">311 Resources</h2>
-                            <a href="#">
-                                <img alt="Visit 311" src="<?php echo get_template_directory_uri(); ?>/img/311-square-logo.svg">
-                            </a>
-                        </div>
-                        <table class="table table-bordered upper-table">
-                            <tbody>
-                                <tr>
-                                    <td style="width: 33%">
-                                        <a class="three11-white-link" href="#">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/benefits3.svg">
-                                            <span>Benefits &amp; Support</span>
-                                        </a>
-                                    </td>
-                                    <td style="width: 33%">
-                                        <a class="three11-white-link" href="#">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/businessandconsumers6.svg">
-                                            <span>Business &amp; Consumers</span>
-                                        </a>
-                                    </td>
-                                    <td style="width: 33%">
-                                        <a class="three11-white-link" href="#">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/courtsandlaw3.svg">
-                                            <span>Courts &amp; Law</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="three11-white-link" href="#4">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/cultureandrecreation.svg">
-                                            <span>Culture &amp; Recreation</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#5">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/education3.svg">
-                                            <span>Education</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#6">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/employment.svg">
-                                            <span>Employment</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="three11-white-link" href="#7">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/environment8.svg">
-                                            <span>Environment</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#8">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/garbageandrecycling3.svg">
-                                            <span>Garbage &amp; Recycling</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#9">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/governmentandelections2.svg">
-                                            <span>Government &amp; Elections</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="three11-white-link" href="#10">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/health2.svg">
-                                            <span>Health</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#11">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/housingandbuildings.svg">
-                                            <span>Housing &amp; Buildings</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#12">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/noise2.svg">
-                                            <span>Noise</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="three11-white-link" href="#13">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/pets4.svg">
-                                            <span>Pets, Pests &amp; Wildlife</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#14">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/publicsafety1.svg">
-                                            <span>Public Safety</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#15">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/records1.svg">
-                                            <span>Records</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="three11-white-link" href="#16">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/sidewalksstreetshighways.svg">
-                                            <span>Sidewalks, Streets, Highways</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#17">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/tax2.svg">
-                                            <span>Taxes</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#18">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/transportation4.svg">
-                                            <span>Transportation</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="three11-white-link" href="#">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/a-z2.svg">
-                                            <span>A to Z</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/311app8.svg">
-                                            <span>About 311</span>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a class="three11-white-link" href="#">
-                                            <img alt="" aria-hidden="true" src="<?php echo get_template_directory_uri(); ?>/img/311-mobile-app.svg">
-                                            <span>Get The NYC311 App</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <table class="table table-bordered lower-table">
-                            <tbody>
-                                <tr>
-                                    <td style="width: 33%">
-                                        <a href="#">
-                                            <span>Report Problems</span>
-                                        </a>
-                                    </td>
-                                    <td style="width: 33%">
-                                        <a href="#">
-                                            <span>Look Up Service Requests</span>
-                                        </a>
-                                    </td>
-                                    <td style="width: 33%">
-                                        <a href="#">
-                                            <span>Make Payments</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
+        <div class="row-311">
+            <div class="left-311">
+                <div class="three11-logo">
+                    <h2 id="three11-module-heading" class="sr-only">311 Resources</h2>
+                    <a href="#">
+                        <img alt="Visit 311" src="<?php echo get_template_directory_uri(); ?>/img/311-square-logo.svg">
+                    </a>
                 </div>
-                <div class="col-sm-3" style="background-color:lavenderblush;">
-                    <div class="cityscoop-container">
-                        <div class="cityscoop-heading">City Scoop</div>
-                        <!-- <a class="cityscoop-toplink video-play video-link ico-play" data-video-url="https://www.youtube.com/embed/ZypbOS0RIEQ?autoplay=1&amp;list=PL7GBjj2-06xhgMUI6B8k3zmwSBPcDBNwo&amp;index=0"> -->
-                        <a>
-                            <img alt="View the latest City Scoop " src="<?php echo get_template_directory_uri(); ?>/img/cityscoop.png">
+                <div class="upper-list-311">
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-121">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/benefits3.svg">
+                            <span>Benefits &amp; Support</span>
                         </a>
-                        <div class="cityscoop-text-space">
-                            <h4>City Scoop: Sep 13</h4>
-                            <p>City Now Responsible for Tree Sidewalk Damage, Paid Personal Time Rally, 3-K Now Citywide
-                            </p>
-                            <!-- <a href="https://www.youtube.com/playlist?list=PL7GBjj2-06xhgMUI6B8k3zmwSBPcDBNwo"> -->
-                            <a href="#">
-                                VIEW MORE VIDEOS
-                            </a>
-                        </div>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-2">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/businessandconsumers6.svg">
+                            <span>Business &amp; Consumers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-3">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/courtsandlaw3.svg">
+                            <span>Courts &amp; Law</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-4">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/cultureandrecreation.svg">
+                            <span>Culture &amp; Recreation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-5">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/education3.svg">
+                            <span>Education</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-6">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/employment.svg">
+                            <span>Employment</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-7">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/environment8.svg">
+                            <span>Environment</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-8">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/garbageandrecycling3.svg">
+                            <span>Garbage &amp; Recycling</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-9">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/governmentandelections2.svg">
+                            <span>Government &amp; Elections</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-10">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/health2.svg">
+                            <span>Health</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-11">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/housingandbuildings.svg">
+                            <span>Housing &amp; Buildings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-12">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/noise2.svg">
+                            <span>Noise</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-13">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/pets4.svg">
+                            <span>Pets, Pests &amp; Wildlife</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-14">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/publicsafety1.svg">
+                            <span>Public Safety</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-15">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/records1.svg">
+                            <span>Records</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-16">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/sidewalksstreetshighways.svg">
+                            <span>Sidewalks, Streets, Highways</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-17">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/tax2.svg">
+                            <span>Taxes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/category/?id=311-18">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/transportation4.svg">
+                            <span>Transportation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/all-articles/">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/a-z2.svg">
+                            <span>A to Z</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/about-nyc-311/">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/311app8.svg">
+                            <span>About 311</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="three11-white-link" href="https://portal.311.nyc.gov/article/?kanumber=KA-01025">
+                            <img alt="" src="<?php echo get_template_directory_uri(); ?>/img/311-mobile-app.svg">
+                            <span>Get The NYC311 App</span>
+                        </a>
+                    </li>
+                </div>
+                <div class="lower-list-311">
+                    <li>
+                        <a href="https://portal.311.nyc.gov/report-problems/">
+                            <span>Report Problems</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://portal.311.nyc.gov/check-status/">
+                            <span>Look Up Service Requests</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://portal.311.nyc.gov/make-a-payment/">
+                            <span>Make Payments</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="right-311" style="background-color:lavenderblush;">
+                <div class="cityscoop-container">
+                    <div class="cityscoop-heading">City Scoop</div>
+                    <!-- <a class="cityscoop-toplink video-play video-link ico-play" data-video-url="https://www.youtube.com/embed/ZypbOS0RIEQ?autoplay=1&amp;list=PL7GBjj2-06xhgMUI6B8k3zmwSBPcDBNwo&amp;index=0"> -->
+                    <a>
+                        <img alt="View the latest City Scoop " src="<?php echo get_template_directory_uri(); ?>/img/cityscoop.png">
+                    </a>
+                    <div class="cityscoop-text-space">
+                        <h4>City Scoop: Sep 13</h4>
+                        <p>City Now Responsible for Tree Sidewalk Damage, Paid Personal Time Rally,
+                            3-K Now Citywide</p>
+                        <a href="https://www.youtube.com/playlist?list=PL7GBjj2-06xhgMUI6B8k3zmwSBPcDBNwo"> VIEW MORE VIDEOS </a>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 <div class="program-wrapper">
