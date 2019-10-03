@@ -253,11 +253,11 @@
                 <button type="button" class="btn btn-dark btn-sm ml-auto d-none d-sm-block"><b>VIEW ALL</b></button>
             </div>
         </div>
-        <div class="row mt-3 row-pad">
+        <div class="row mt-2 row-pad">
             <div class="col-sm-6 col-md-3 mb-2">
                 <div class="row prog-pad">
                     <div class="col-3 col-md-12 p-0 prog-border img-col">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-1.jpg" class="img-fluid" alt="Image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-1.jpg" class="img-fluid img-sm" alt="Image">
                     </div>
                     <div class="col-9 col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">Opportunity Starts Now</h5>
@@ -300,13 +300,13 @@
             </div>
             <button type="button" class="btn btn-dark btn-lg btn-block mx-3 mb-4 d-block d-sm-none mx-0">VIEW ALL</button>
         </div>
-        <div class="row mt-3 row-pad">
+        <div class="row mt-1 row-pad">
             <div class="col-md-3 mb-2 d-none d-xl-block">
                 <div class="row prog-pad">
                     <div class="col-md-12 p-0 prog-border">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/program 2-1.png" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-md-12 bg-white prog-border">
+                    <div class="col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">NYC Open Data</h5>
                         <p class="d-none d-sm-block prog-desc">Access more than 1,400 NYC data sets for free, at any time via the NYC Open Data portal.</p>
                     </div>
@@ -317,7 +317,7 @@
                     <div class="col-md-12 p-0 prog-border">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/program 2-2.gif" class="img-fluid img-sm" alt="Image">
                     </div>
-                    <div class="prog-height col-md-12 bg-white prog-border">
+                    <div class="col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">NYC Teen</h5>
                         <p class="d-none d-sm-block prog-desc">Learn how to deal with pressures facing teens and where to get help.</p>
                     </div>
@@ -328,7 +328,7 @@
                     <div class="col-md-12 p-0 prog-border">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/program 2-3.jpg" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-md-12 bg-white prog-border">
+                    <div class="col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">PlanNowNYC</h5>
                         <p class="d-none d-sm-block prog-desc">Get tips to stay safe during an emergency, learn about possible emergency events, and make a plan.</p>
                     </div>
@@ -339,7 +339,7 @@
                     <div class="col-md-12 p-0 prog-border">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/program 2-4.jpg" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-md-12 bg-white prog-border">
+                    <div class="col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">ACCESS NYC Portal</h5>
                         <p class="d-none d-sm-block">Visit the online public benefits screening and application tool.</p>
                     </div>

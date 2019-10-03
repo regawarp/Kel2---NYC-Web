@@ -332,7 +332,7 @@ hr {
 }
 
 @media all and (min-width: 768px) {
-    .prog-height {
+    .text-col {
         height: 11rem;
         overflow: hidden;
     }
