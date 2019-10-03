@@ -35,7 +35,7 @@ body {
 }
 
 .highlight-wrapper {
-    background-color: white;
+    background-color: #C9C9C9;
     margin: 0 auto;
     width: 100%;
 }
@@ -275,7 +275,6 @@ hr {
     }
 }
 
-
 .upper-table td {
   color: black;  
   border-width: 2px;  
@@ -381,3 +380,94 @@ hr {
   font-weight: bold;
 }
 
+/* slider */
+
+.bg-slider{
+    background-image: url("img/mayor.jpg");
+    min-height: 400px;
+    background-size: cover;
+}
+
+.slider-text{
+    margin-top: 250px;
+    padding-left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.headline-slider{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.link-slider{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    width: 250px;
+    height: 32px;
+    line-height: 30px;
+    padding-left: 38px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: url("img/bg-arrow.png");
+    color: white;
+}
+
+.under-link{
+    position: absolute;
+    top: 50px;
+    color: white;
+}
+
+.desc-slider{
+    font-size: 12pt;
+}
+
+.col-custom1{
+    width: 104px;
+    border-radius: 20px;
+}
+
+.col-custom2{
+    width: 820px;
+    margin-left: 30px;
+}
+
+.row-custom{
+    width: 100%;
+}
+
+.tab-text{
+    font-size: 12px;
+}
+
+.tab-desc{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.arrow-left{
+    position: absolute;
+    top: 450px;
+    left: 160px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.arrow-right{
+    position: absolute;
+    top: 450px;
+    right: 155px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
