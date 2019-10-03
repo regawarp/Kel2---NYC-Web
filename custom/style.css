@@ -376,6 +376,11 @@ hr {
     padding: 10px;
 }
 
+.lower-list-311 li:hover {
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
 .lower-list-311 li a {
     color: white;
 }
