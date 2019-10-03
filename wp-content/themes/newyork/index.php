@@ -10,7 +10,7 @@
         </div>
         <div class="container-fluid bg-info">
             <div class="row">
-                <div class="col-1 bg-dark">
+                <div class="col-1 bg-dark d-none d-lg-block">
                     <div class="row" style="text-align: center; overflow: hidden;">
                         <div class="col-12 bg-light h7" style="height: 30px">
                             <p style="color: rgb(145, 66, 20)"><b>TODAY</b></p>
@@ -44,9 +44,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-11" style="background: black">
+                <div class="col-12 col-lg-11" style="background: black">
                     <div class="row">
-                        <div class="col-9 bg-slider">
+                        <div class="col-12 col-lg-9 bg-slider">
                             <div class="slider-text">
                                 <span class="headline-slider">Mayor de Blasio Announces Launch of Neighborhood
                                     Organizing Census
@@ -64,6 +64,34 @@
                             </span>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row date-slider bg-light ">
+                <div class="col-12 bg-dark " style="height: 30px">
+                    <p style="color: white"><b>TODAY</b></p>
+                    <hr>
+                </div>
+                <div class="col-12 bg-light" style="height: 100px">
+                    <p class="h7"><b>SEP</b> </br> </p>
+                    <p class="h1"> 27</p>
+                    <hr>
+                </div>
+                <div class="col-12 bg-light" style="height: 120px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/ico-parking.png" alt="ico-parking" style="width: 41px">
+                    <p class="tab-text">Alternative Side </br> Parking</p>
+                    <p class="tab-desc">IN EFFECT</p>
+                    <hr>
+                </div>
+                <div class="col-12 bg-light" style="height: 115px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/ico-trash.png" alt="ico-trash" style="width: 41px">
+                    <p class="tab-text">Collections</p>
+                    <p class="tab-desc">ON SCHEDULE</p>
+                    <hr>
+                </div>
+                <div class="col-12 bg-light" style="height: 100px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/ico-school.png" alt="ico-school" style="width: 41px">
+                    <p class="tab-text">Schools</p>
+                    <p class="tab-desc">OPEN</p>
                 </div>
             </div>
         </div>

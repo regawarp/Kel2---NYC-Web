@@ -639,3 +639,30 @@ hr {
     text-align: center;
     vertical-align: middle;
 }
+
+div .date-slider{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    div.col-1 {
+      display: none;
+    }
+
+    div.col-3 {
+        display: none;
+    }
+
+    .bg-slider{
+        width: 770px;
+    }
+    div .date-slider{
+        display: block;
+        /* width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px; */
+        text-align: center;
+    }
+  }
