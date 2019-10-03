@@ -256,10 +256,10 @@
         <div class="row mt-3 row-pad">
             <div class="col-sm-6 col-md-3 mb-2">
                 <div class="row prog-pad">
-                    <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-1.jpg" class="img-fluid img-sm" alt="Image">
+                    <div class="col-3 col-md-12 p-0 prog-border img-col">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-1.jpg" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                    <div class="col-9 col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">Opportunity Starts Now</h5>
                         <p class="d-none d-sm-block prog-desc">Free, full-day, high-quality pre-K, where teachers are igniting learning in our children.</p>
                     </div>
@@ -267,10 +267,10 @@
             </div>
             <div class="col-sm-6 col-md-3 mb-2">
                 <div class="row prog-pad">
-                    <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
+                    <div class="col-3 col-md-12 p-0 prog-border img-col">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-2.jpg" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                    <div class="col-9 col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">Gridlock Alert Days</h5>
                         <p class="d-none d-sm-block prog-desc">Avoid gridlock. Check out UN Assembly related street closures, weekdays from September 23-30.</p>
                     </div>
@@ -278,10 +278,10 @@
             </div>
             <div class="col-sm-6 col-md-3 mb-2">
                 <div class="row prog-pad">
-                    <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-3.jpg" class="img-fluid img-sm" alt="Image">
+                    <div class="col-3 col-md-12 p-0 prog-border img-col">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-3.jpg" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                    <div class="col-9 col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">NYC Off-Broadway Week: 2-for-1 Tickets</h5>
                         <p class="d-none d-sm-block prog-desc">Take a night off—on the edge of your seat. During NYC Off-Broadway Week, tickets are 2-for-1.</p>
                     </div>
@@ -289,10 +289,10 @@
             </div>
             <div class="col-sm-6 col-md-3 mb-2">
                 <div class="row prog-pad">
-                    <div class="col-3 col-md-12 p-0 prog-border img-col-sm">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-4.jpg" class="img-fluid img-sm" alt="Image">
+                    <div class="col-3 col-md-12 p-0 prog-border img-col">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/program 1-4.jpg" class="img-fluid" alt="Image">
                     </div>
-                    <div class="prog-height col-9 col-md-12 bg-white prog-border text-col-sm">
+                    <div class="col-9 col-md-12 bg-white prog-border text-col">
                         <h5 class="prog-title mt-2">Register to Vote for General Election 11/5</h5>
                         <p class="d-none d-sm-block prog-desc">10/11 is the last day to postmark & register in person for General Election on 11/5.</p>
                     </div>
