@@ -76,7 +76,7 @@
                         <div class="three11-logo">
                             <h2 id="three11-module-heading" class="sr-only">311 Resources</h2>
                             <a href="#">
-                                <img alt="Visit 311" src="img/311-square-logo.svg">
+                                <img alt="Visit 311" src="<?php echo get_template_directory_uri();?>/img/311-square-logo.svg">
                             </a>
                         </div>
                         <div class="upper-list-311">
@@ -230,7 +230,7 @@
                             <div class="cityscoop-heading">City Scoop</div>
                             <!-- <a class="cityscoop-toplink video-play video-link ico-play" data-video-url="https://www.youtube.com/embed/ZypbOS0RIEQ?autoplay=1&amp;list=PL7GBjj2-06xhgMUI6B8k3zmwSBPcDBNwo&amp;index=0"> -->
                             <a>
-                                <img alt="View the latest City Scoop " src="img/cityscoop.png">
+                                <img alt="View the latest City Scoop " src="<?php echo get_template_directory_uri();?>/img/cityscoop.png">
                             </a>
                             <div class="cityscoop-text-space">
                                 <h4>City Scoop: Sep 13</h4>
